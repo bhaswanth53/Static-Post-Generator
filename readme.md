@@ -17,7 +17,7 @@ We can create blog posts as a static pages using this project.
 We can also modify the page template which is stored in **theme** folder as **template.php**. We just need to modify it and add the below line where we need to embed blog post.
 
 ```
-**{{ content }}**
+{{ content }}
 ```
 
 The pages will be created in **theme/pages** folder. And the page data will be saved in **data.json** file for the record.
